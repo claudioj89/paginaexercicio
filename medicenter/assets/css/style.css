@@ -6,6 +6,7 @@ body {
     background-color: #ffffff;
     margin: 0px;
     padding: 0px;
+    padding-bottom: 300px;
 }
 
 header {
@@ -18,7 +19,6 @@ header {
     display: flex;
     justify-content: space-between;
     width: 990px;
-
 }
 
 .logo {
@@ -137,4 +137,26 @@ nav a:hover {
     color: #ffffff;
     font-size: 13px;
     text-decoration: none;
+}
+
+.banner_desc1 {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #375eb9;
+    padding-bottom: 6px;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+    background-color: #2b4c99;
+}
+
+#geral aside {
+    flex: 1;
 }
